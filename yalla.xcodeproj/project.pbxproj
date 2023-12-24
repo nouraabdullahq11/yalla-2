@@ -8,23 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		1480F1A52AD2FD49008BEAB4 /* yallaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480F1A42AD2FD49008BEAB4 /* yallaApp.swift */; };
-		1480F1A72AD2FD49008BEAB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480F1A62AD2FD49008BEAB4 /* ContentView.swift */; };
+		1480F1A72AD2FD49008BEAB4 /* ContentView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480F1A62AD2FD49008BEAB4 /* ContentView1.swift */; };
 		1480F1A92AD2FD4A008BEAB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1480F1A82AD2FD4A008BEAB4 /* Assets.xcassets */; };
 		1480F1AC2AD2FD4A008BEAB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1480F1AB2AD2FD4A008BEAB4 /* Preview Assets.xcassets */; };
 		1480F1B52AD30D91008BEAB4 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480F1B42AD30D91008BEAB4 /* SwiftUIView.swift */; };
 		1480F1B72AD31A62008BEAB4 /* SwiftUIView_done.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480F1B62AD31A62008BEAB4 /* SwiftUIView_done.swift */; };
 		1480F1B92AD3F301008BEAB4 /* SwiftUIViewHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480F1B82AD3F301008BEAB4 /* SwiftUIViewHome.swift */; };
+		1480F1F12AD69676008BEAB4 /* Hobbies_page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480F1F02AD69676008BEAB4 /* Hobbies_page.swift */; };
+		1480F1F32AD69816008BEAB4 /* Activities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480F1F22AD69816008BEAB4 /* Activities.swift */; };
+		1480F1F92AD7CC0E008BEAB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480F1F82AD7CC0E008BEAB4 /* ContentView.swift */; };
+		1831527F2ADF1F5300943D27 /* SwiftUIView_Rewards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831527E2ADF1F5300943D27 /* SwiftUIView_Rewards.swift */; };
+		183152812ADF211800943D27 /* Stepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183152802ADF211800943D27 /* Stepper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1480F1A12AD2FD49008BEAB4 /* yalla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yalla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1480F1A42AD2FD49008BEAB4 /* yallaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yallaApp.swift; sourceTree = "<group>"; };
-		1480F1A62AD2FD49008BEAB4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1480F1A62AD2FD49008BEAB4 /* ContentView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView1.swift; sourceTree = "<group>"; };
 		1480F1A82AD2FD4A008BEAB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1480F1AB2AD2FD4A008BEAB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1480F1B42AD30D91008BEAB4 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		1480F1B62AD31A62008BEAB4 /* SwiftUIView_done.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView_done.swift; sourceTree = "<group>"; };
 		1480F1B82AD3F301008BEAB4 /* SwiftUIViewHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewHome.swift; sourceTree = "<group>"; };
+		1480F1F02AD69676008BEAB4 /* Hobbies_page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hobbies_page.swift; sourceTree = "<group>"; };
+		1480F1F22AD69816008BEAB4 /* Activities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activities.swift; sourceTree = "<group>"; };
+		1480F1F82AD7CC0E008BEAB4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1831527E2ADF1F5300943D27 /* SwiftUIView_Rewards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView_Rewards.swift; sourceTree = "<group>"; };
+		183152802ADF211800943D27 /* Stepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stepper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +68,15 @@
 			isa = PBXGroup;
 			children = (
 				1480F1A42AD2FD49008BEAB4 /* yallaApp.swift */,
-				1480F1A62AD2FD49008BEAB4 /* ContentView.swift */,
-				1480F1B42AD30D91008BEAB4 /* SwiftUIView.swift */,
-				1480F1B62AD31A62008BEAB4 /* SwiftUIView_done.swift */,
 				1480F1B82AD3F301008BEAB4 /* SwiftUIViewHome.swift */,
+				1831527E2ADF1F5300943D27 /* SwiftUIView_Rewards.swift */,
+				183152802ADF211800943D27 /* Stepper.swift */,
+				1480F1F22AD69816008BEAB4 /* Activities.swift */,
+				1480F1B42AD30D91008BEAB4 /* SwiftUIView.swift */,
+				1480F1F82AD7CC0E008BEAB4 /* ContentView.swift */,
+				1480F1F02AD69676008BEAB4 /* Hobbies_page.swift */,
+				1480F1A62AD2FD49008BEAB4 /* ContentView1.swift */,
+				1480F1B62AD31A62008BEAB4 /* SwiftUIView_done.swift */,
 				1480F1A82AD2FD4A008BEAB4 /* Assets.xcassets */,
 				1480F1AA2AD2FD4A008BEAB4 /* Preview Content */,
 			);
@@ -147,10 +162,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1480F1B72AD31A62008BEAB4 /* SwiftUIView_done.swift in Sources */,
-				1480F1A72AD2FD49008BEAB4 /* ContentView.swift in Sources */,
+				1480F1A72AD2FD49008BEAB4 /* ContentView1.swift in Sources */,
+				1480F1F92AD7CC0E008BEAB4 /* ContentView.swift in Sources */,
 				1480F1A52AD2FD49008BEAB4 /* yallaApp.swift in Sources */,
 				1480F1B52AD30D91008BEAB4 /* SwiftUIView.swift in Sources */,
+				1831527F2ADF1F5300943D27 /* SwiftUIView_Rewards.swift in Sources */,
 				1480F1B92AD3F301008BEAB4 /* SwiftUIViewHome.swift in Sources */,
+				183152812ADF211800943D27 /* Stepper.swift in Sources */,
+				1480F1F12AD69676008BEAB4 /* Hobbies_page.swift in Sources */,
+				1480F1F32AD69816008BEAB4 /* Activities.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

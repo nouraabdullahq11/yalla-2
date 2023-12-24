@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct yallaApp: App {
+   
     var body: some Scene {
+        
         WindowGroup {
-            ContentView()
+           
+                SwiftUIViewHome()
+                      
+        
+            
+            
         }
     }
 }
